@@ -1,0 +1,1 @@
+export { default as AppStore, type IAppStore } from './AppStore'

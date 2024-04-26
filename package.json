@@ -1,0 +1,73 @@
+{
+  "name": "@ada-labs/applytics",
+  "version": "0.1.0",
+  "description": "Get information about your app from App Store and Google Play.",
+  "bugs": {
+    "url": "https://github.com/meet-ada/labs-applytics/issues"
+  },
+  "main": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "author": "Chris Magnussen",
+  "license": "MIT",
+  "keywords": [
+    "ada",
+    "prek",
+    "appstore",
+    "google play",
+    "itunes",
+    "ios",
+    "android",
+    "nodejs"
+  ],
+  "scripts": {
+    "test": "env TS_NODE_PROJECT=\"./config/tsconfig.cjs.json\" ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "lint:js": "eslint --ext \".ts\" --ignore-path .gitignore .",
+    "lint": "pnpm lint:js",
+    "clean": "rimraf dist/*",
+    "build": "pnpm clean && tsc --project config/tsconfig.esm.json & tsc --project config/tsconfig.cjs.json",
+    "release": "pnpm build && release-it",
+    "release:beta": "pnpm build && release-it --preRelease=beta",
+    "release:rc": "pnpm build && release-it --preRelease=rc"
+  },
+  "files": [
+    "dist/*.js",
+    "dist/**/*.js",
+    "dist/*.ts",
+    "dist/**/*.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:meet-ada/labs-applytics.git"
+  },
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js",
+    "default": "./dist/esm/index.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^8.0.1",
+    "@types/jasmine": "^5.1.4",
+    "@types/node": "^20.12.7",
+    "@types/ramda": "^0.29.12",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "@vercel/edge": "^1.1.1",
+    "eslint": "^9.1.1",
+    "jasmine": "^5.1.0",
+    "release-it": "^17.2.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.0.6+sha256.0624e30eff866cdeb363b15061bdb7fd9425b17bc1bb42c22f5f4efdea21f6b3",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "dayjs": "^1.11.10",
+    "isomorphic-unfetch": "^4.0.2",
+    "ramda": "^0.29.1"
+  }
+}

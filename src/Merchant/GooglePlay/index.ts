@@ -1,0 +1,1 @@
+export { default as GooglePlay, type IGooglePlay } from './GooglePlay'
