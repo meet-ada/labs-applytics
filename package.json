@@ -1,7 +1,7 @@
 {
   "name": "@ada-labs/applytics",
   "version": "0.1.2",
-  "description": "Get information about your app from App Store and Google Play.",
+  "description": "A simple and easy-to-use library to fetch app details and reviews from the Apple App Store and Google Play Store.",
   "bugs": {
     "url": "https://github.com/meet-ada/labs-applytics/issues"
   },
@@ -58,7 +58,7 @@
     "@vercel/edge": "^1.1.1",
     "eslint": "^9.1.1",
     "jasmine": "^5.1.0",
-    "release-it": "^17.2.0",
+    "release-it": "^17.2.1",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"

@@ -1,9 +1,9 @@
 <h3 align="center">
-  @ada-labs/applytics (WIP)
+  Applytics 📊
 </h3>
 
 <p align="center">
-  Fetch information about your apps on the App Store and Google Play Store.
+  A simple and easy-to-use library to fetch app details and reviews from the Apple App Store and Google Play Store.
 </p>
 
 <p align="center">
