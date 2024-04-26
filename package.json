@@ -1,6 +1,6 @@
 {
   "name": "@ada-labs/applytics",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Get information about your app from App Store and Google Play.",
   "bugs": {
     "url": "https://github.com/meet-ada/labs-applytics/issues"
