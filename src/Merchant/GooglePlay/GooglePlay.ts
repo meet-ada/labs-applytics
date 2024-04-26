@@ -5,6 +5,9 @@ import dayjs from "dayjs";
 import { extractor, getScriptObject } from "./helpers";
 import { GPMAPPINGS } from "./constants";
 
+// Some code snippets from https://github.com/facundoolano/google-play-scraper
+// Thanks to Facundo Olano for the code
+
 export interface IGooglePlay extends MerchantInterface {
     baseUrl: string;
 }

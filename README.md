@@ -8,8 +8,8 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@ada-labs/applytics"><img src="https://img.shields.io/npm/dt/@ada-labs/applytics.svg" alt="Total Downloads"></a>
-  <a href="https://github.com/tailwindlabs/headlessui/releases"><img src="https://img.shields.io/npm/v/@ada-labs/applytics.svg" alt="Latest Release"></a>
-  <a href="https://github.com/tailwindlabs/headlessui/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/@ada-labs/applytics.svg" alt="License"></a>
+  <a href="https://www.npmjs.com/package/@ada-labs/applytics"><img src="https://img.shields.io/npm/v/@ada-labs/applytics.svg" alt="Latest Release"></a>
+   <a href="https://github.com/meet-ada/labs-applytics/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/@ada-labs/applytics.svg" alt="License"></a>
 </p>
 
 ## Installation
