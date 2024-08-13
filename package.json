@@ -1,6 +1,6 @@
 {
   "name": "@ada-labs/applytics",
-  "version": "0.1.3-rc.0",
+  "version": "0.1.3",
   "description": "A simple and easy-to-use library to fetch app details and reviews from the Apple App Store and Google Play Store.",
   "bugs": {
     "url": "https://github.com/meet-ada/labs-applytics/issues"
